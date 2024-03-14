@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import phone from "../img/phone.svg";
+import logo from "../img/logo.png";
 
 function Header() {
 
@@ -15,7 +16,9 @@ function Header() {
         <>
             <header className="headerWrapper">
                 <div className="headerInner">
-                    <h1>LOGO</h1>
+                    <h1>
+                        O-SWALD
+                    </h1>
                     <div className='headerMenu'>
                         <div className={`headerNav ${active ? "show" : ""}`}>
                             <nav>

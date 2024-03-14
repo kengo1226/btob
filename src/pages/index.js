@@ -6,6 +6,9 @@ import mvImg from "../img/mv-img.png";
 import img1 from "../img/suumo.png";
 import img2 from "../img/freee.png";
 import img3 from "../img/bizreach.png";
+import img4 from "../img/smarthr.png";
+import img5 from "../img/jtb.png";
+import img6 from "../img/mufg.png";
 import icon1 from "../img/clip.svg";
 import icon2 from "../img/sticker.svg";
 import icon3 from "../img/contact-book.svg";
@@ -164,13 +167,13 @@ export default function Home() {
                 <li><Image src={img1} width={320} height={160}></Image></li>
                 <li><Image src={img2} width={320} height={160}></Image></li>
                 <li><Image src={img3} width={320} height={160}></Image></li>
+                <li><Image src={img4} width={320} height={160}></Image></li>
+                <li><Image src={img5} width={320} height={160}></Image></li>
+                <li><Image src={img6} width={320} height={160}></Image></li>
                 <li><Image src={img1} width={320} height={160}></Image></li>
                 <li><Image src={img2} width={320} height={160}></Image></li>
                 <li><Image src={img3} width={320} height={160}></Image></li>
-                <li><Image src={img1} width={320} height={160}></Image></li>
-                <li><Image src={img2} width={320} height={160}></Image></li>
-                <li><Image src={img3} width={320} height={160}></Image></li>
-                <li><Image src={img1} width={320} height={160}></Image></li>
+                <li><Image src={img4} width={320} height={160}></Image></li>
               </ul>
             </div>
           </div>

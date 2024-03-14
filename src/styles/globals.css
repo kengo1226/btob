@@ -337,5 +337,67 @@ footer {
     display: none;
   }
 
-  /* ===== */
+  /* ==== Footer ==== */
+  .bottomCta {
+    background: var(--main-color);
+    padding: 6rem 0;
+  }
+
+  .bottomInner {
+    width: 96%;
+    margin: 0 auto;
+  }
+  
+  .contactText {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 1.2rem;
+    color: #fff;
+  }
+  
+  .contactTtl {
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding-bottom: 2.4rem;
+    color: #fff;
+  }
+  
+  .bottomBtn a {
+    border: 1px solid #ff8000;
+    border-radius: 4px;
+    color: #ffff;
+    background-color: #ff8000;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 90%;
+  }
+  
+  .bottomPhone {
+    display: block;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .bottomPhone p:first-of-type {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+  
+  .bottomPhone p:last-of-type {
+    font-size: 2.6rem;
+    font-weight: bold;
+  }
+  
+  .bottomPhone p:last-of-type span {
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-left: 1.6rem;
+  }
 }
